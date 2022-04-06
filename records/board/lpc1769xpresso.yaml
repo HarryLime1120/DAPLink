@@ -1,0 +1,6 @@
+common:
+    sources:
+        board:
+            - source/board/lpc1769xpresso.c
+        family:
+            - source/family/nxp/lpc1769/target.c
