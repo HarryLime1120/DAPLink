@@ -58,6 +58,12 @@ module:
         - records/usb/usb-hid.yaml
 projects:
     # HIC bootloaders and all target interfaces
+    # dummy entry
+    k20dx_bl:
+        - *module_bl
+        - records/hic_hal/k20dx.yaml
+        - records/board/k20dx_bl.yaml
+
     lpc11u35_if:
         - *module_if
         - *module_hic_lpc11u35_bulk
