@@ -85,5 +85,6 @@ jobs:
         path: |
           bootloaders/*
           firmware*/*
-          *
+          projectfiles/make_gcc_arm/lpc11u35_lpc1769xpresso_if/build/*.hex
+          projectfiles/make_gcc_arm/lpc11u35_lpc1769xpresso_if/build/*.bin
           !firmware*/*.zip
